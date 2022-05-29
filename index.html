@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#working" class="nav-link">Working</a>
+        <a href="#pricing" class="nav-link">Price</a>
+      </nav>
+
+      <div class="container">
+        <div class="header-left">
+          <h1>Mix It Up</h1>
+          <p>
+            Redefine the art of baking with this multipurpose appliance that not
+            only saves time and effort, but also makes tasks easy.
+          </p>
+        </div>
+
+        <div class="header-right">
+          <img
+            id="header-img"
+            src="https://i.pinimg.com/originals/0e/91/e2/0e91e21965ee35eeecde9a743d8c35b2.png"
+            alt="stand-mixer"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section id="features">
+      <h2>Features</h2>
+      <div class="container">
+        <div class="feature">
+          <i class="fa fa-certificate"></i>
+          <h2>Quality</h2>
+          <p>
+            Made with excellent quality materials for a long lasting
+            performance.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fa fa-cogs"></i>
+          <h2>Operations</h2>
+          <p>
+            Comes with multiple speed settings and attachments for various
+            operations.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fa fa-star"></i>
+          <h2>Looks</h2>
+          <p>Available in a plethora of colours and sizes to choose from.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="working">
+      <h2>Video</h2>
+      <div class="container">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Z33WSWPrDvI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div class="container">
+        <div class="price">
+          <h2>Small: $329.99</h2>
+          <p>Capacity: 3-4 qt</p>
+          <button class="buy">Order Now</button>
+        </div>
+        <div class="price">
+          <h2>Medium: $499.99</h2>
+          <p>Capacity: 5-6 qt</p>
+          <button class="buy">Order Now</button>
+        </div>
+        <div class="price">
+          <h2>Large: $679.99</h2>
+          <p>Capacity: 7 qt</p>
+          <button class="buy">Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="bg-blue">
+      <div class="container">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <h4>Subscribe For More Information</h4>
+          <div class="flex">
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="enter your email..."
+            />
+            <input id="submit" type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer><i class="fa fa-copyright"></i> Mix It Up</footer>
+  </body>
+</html>
