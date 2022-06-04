@@ -2,4 +2,4 @@
 
 Designed a product landing page.
 
-You can view the project [here](https://codepen.io/madkn1311/full/PoQQQYJ).
+You can view the project [here](https://madkn1311.github.io/fcc-Product-Landing-Page/).
